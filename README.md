@@ -1,4 +1,4 @@
-# Enchantment A1
+# Enchantment: A1
 Python script to practice w/RaspberryPi: open a program and simulate key strokes.
 the "Auto_VNC" folder should be on the desktop
 
