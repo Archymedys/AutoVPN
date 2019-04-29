@@ -1,10 +1,10 @@
-# Enchantment: A1
+# Enchantment: Ghost Control
 Python script to practice w/RaspberryPi: open a program and simulate key strokes.
 the "Auto_VNC" folder should be on the desktop
 
 create a shortcut on the desktop for VNC Viewer
 
-the "IP address" text file shoud ONLY containt the IP
+the "IP address" text file should ONLY containt the IP
 address of the station that is desired to be controlled.
 
 in order for the raspberry pi to auto run the
