@@ -13,14 +13,16 @@
 #
 #
 #
-from pynput.keyboard import Key, Controller
+import pynput.mouse as MS
+import pynput.keyboard as KB
 import subprocess, sys
 import time
 
-keyboard = Controller()
+mouse = MS.Controller()
+keyboard = KB.Controller()
 
 #time.sleep is a delay timer before continuing through the program
-time.sleep(1)
+time.sleep(5)
 
 #opens VNC viewer from the desktop shortcut
 opener = "open" if sys.platform == "darwin" else "xdg-open"
@@ -50,5 +52,14 @@ print(HMI_address)
 
 time.sleep(1)
 
-keyboard.press(Key.enter)
-keyboard.release(Key.enter)
+keyboard.press(KB.Key.enter)
+keyboard.release(KB.Key.enter)
+
+
+#the following is a simple "mouse jiggle" to allow the VNC to reconnect to a lost connection
+while 1==1:
+    time.sleep(30)
+    mouse.move(1, 0)
+    mouse.move(0, 1)
+    mouse.move(-1, 0)
+    mouse.move(0, -1)
