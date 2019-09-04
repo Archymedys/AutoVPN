@@ -4,6 +4,10 @@
 #be sure to have pip installed on station that will be running this script
 #be sure to have pynput installed on station that will be running this script
 #
+#
+#when using the rPi, be sure to download the screensaver in order to disable "sleep mode"
+# the command to do so is [sudo apt-get install xcreensaver]
+#
 #this script is created to run at the starting sequence of a raspberry pi B+ with
 #a raspbian linux distro, which already would be setup to "auto login" to the desktop.
 #
