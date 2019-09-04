@@ -6,7 +6,7 @@
 #
 #
 #when using the rPi, be sure to download the screensaver in order to disable "sleep mode"
-# the command to do so is [sudo apt-get install xcreensaver]
+# the command to do so is [sudo apt-get install xscreensaver]
 #
 #this script is created to run at the starting sequence of a raspberry pi B+ with
 #a raspbian linux distro, which already would be setup to "auto login" to the desktop.
